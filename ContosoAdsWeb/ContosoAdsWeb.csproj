@@ -203,6 +203,12 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ContosoAdsCommon\ContosoAdsCommon.csproj">
+      <Project>{5ab3c86b-c54c-4b2b-a3fa-dab5aec4158e}</Project>
+      <Name>ContosoAdsCommon</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
